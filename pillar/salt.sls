@@ -4,6 +4,8 @@ salt:
   # and up as it'll wipe out important files that Salt relies on.
   clean_config_d_dir: False
 
+  top_file_merging_strategy: same
+
   # This state will remove "/etc/salt/minion" when you set this to true.
   minion_remove_config: True
 
